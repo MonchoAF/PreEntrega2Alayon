@@ -1,0 +1,236 @@
+/* css general en pagina */
+@font-face {
+    font-family: "moncerrat-general";
+    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+body{
+    background-image: url(../img/pngtree-pastel-pink-textured-background-with-abstract-watercolor-painting-image_13721736.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+header{
+    box-shadow: 0px 0px 9px 0px rgb(0, 0, 0);
+}
+header nav{
+    background-color: rgb(241, 116, 193);
+    font-family: moncerrat-general;
+}
+footer {
+    background-color: rgb(241, 116, 193);
+    font-family: moncerrat-general;
+    box-shadow: 0px 0px 9px 0px rgb(0, 0, 0);
+    margin-top: 1rem;
+}
+
+/* css en index */
+.texto-index{
+    width: 50%;
+    border-style:none;
+    background-color: antiquewhite;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    text-align: center;
+    margin: 1rem 25% 1rem 25%;
+    font-family: moncerrat-general;
+    box-shadow: 2px 2px 9px 0px rgb(0, 0, 0);
+}
+.video-index{
+    text-align: center;
+    font-family: moncerrat-general;
+}
+
+.bienvenida{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: moncerrat-general;
+}
+.contenedor-carrusel{
+    width: 100%;  
+}
+
+.carrusel{
+    margin-top: 1rem;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 1rem;
+}
+.carrusel div {
+    width: 100%;
+    
+}
+.carrusel div div {
+    width: 100%;
+    border-radius: 50%;
+    
+    
+}
+.carrusel div div div{
+    width: 100%;
+    
+}
+
+.video-index-enlace{
+    width: 50%;
+}
+
+/* css pagina contactos  */
+.main-contacto{
+    display: flex;
+    margin: 3rem;
+}
+
+.main-contacto section{
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+
+/* css pagina venta  */
+
+.imagen-venta-1{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.imagen-venta-1 img{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(241, 116, 193);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedor-card{
+    width: 100%;
+}
+.card{
+    width: 75%;
+    margin: auto;
+    font-family: moncerrat-general;
+}
+
+.card-body a{
+    margin-left: 40%;
+    margin-right: 40%;
+}
+ /* css recetas*/
+
+.titulos-recetas{
+    display: block;
+    width: 100%
+}
+
+.titulos-recetas h1{
+    margin-top: 2rem;
+    text-align: center;
+    font-family: moncerrat-general;
+}
+.titulos-recetas h3{
+    text-align: center;
+    font-family: moncerrat-general;
+    margin-bottom: 2rem;
+}
+
+.recetas{
+    display: flex;
+    width: 100%;
+}
+
+.recetas div{
+    width: 20rem;
+    text-align: center;
+    font-family: moncerrat-general;
+}
+.receta-1{
+    margin-left: 10%;
+}
+.receta-2{
+    margin-left: auto;
+    margin-right: auto;
+}
+.receta-3{
+    margin-right: 10%;
+}
+
+/* Css personal */
+
+.imagen-personal{
+    width: 100%;
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.imagen-personal img{
+    width: 30rem;
+    margin-right: auto;
+    margin-left: auto;
+    mask-image: linear-gradient(rgb(241, 116, 193) 50%,transparent);
+}
+.texto-personal{
+    width: 100%;
+    display: flex;
+}
+
+.titulosuperiorrecetas{
+    text-align: center;
+}
+
+.parrafosuperiorrecetas{
+    margin-top: 2rem;
+}
+
+.contenedor-personal{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedor-personal p{
+    text-align: center;
+    font-family: moncerrat-general;
+}
+
+/* responsive */
+
+/* recetas*/
+@media(max-width:1250px){
+    .recetas{
+        display: block;
+    }
+    .receta-1{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+    }
+    .receta-1 img{
+        margin-top: 1rem;
+    }
+    .receta-2{
+        margin-top: 2rem;
+    }
+    .receta-2 img{
+        margin-top: 1rem;
+    }
+    .receta-3{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+    }
+    .receta-3 img{
+        margin-top: 1rem;
+    }
+}
+
+/* personal */
+
+@media (max-width:480px) {
+    .imagen-personal img{
+        width: 60%;
+    }
+}
+

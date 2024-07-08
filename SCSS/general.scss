@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "moncerrat-general";
+    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+/** Background general de la pagina**/
+
+body{
+    background-image: url(../img/pngtree-pastel-pink-textured-background-with-abstract-watercolor-painting-image_13721736.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+/** Header **/
+
+header{
+    box-shadow: 0px 0px 9px 0px rgb(0, 0, 0);
+
+    nav{
+        background-color: rgb(241, 116, 193);
+        font-family: moncerrat-general;
+    }
+}
+
+/** Footer **/
+
+footer {
+    background-color: rgb(241, 116, 193);
+    font-family: moncerrat-general;
+    box-shadow: 0px 0px 9px 0px rgb(0, 0, 0);
+    margin-top: 1rem;
+}

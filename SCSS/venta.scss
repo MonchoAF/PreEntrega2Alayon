@@ -1,0 +1,30 @@
+/* css pagina venta  */
+
+.imagen-venta-1{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    img{
+        width: 200px;
+        height: 200px;
+        background-color: rgb(241, 116, 193);
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.contenedor-card{
+    width: 100%;
+    .card{
+        width: 75%;
+        margin: auto;
+        font-family: moncerrat-general;
+        .card-body{
+            a{
+                margin-left: 40%;
+                margin-right: 40%;
+            }
+        }
+    }
+}
+
